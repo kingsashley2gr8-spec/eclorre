@@ -88,7 +88,7 @@ export default function EcloreLanding() {
 
             <section style={{ minHeight: "100vh", position: "relative", overflow: "hidden" }}>
                 <div style={{ position: "absolute", inset: 0, backgroundImage: `url(${HERO_IMG})`, backgroundSize: "cover", backgroundPosition: "center top", zIndex: 0 }} />
-                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(5,4,2,0.93) 0%, rgba(5,4,2,0.80) 45%, rgba(5,4,2,0.45) 70%, rgba(5,4,2,0.20) 100%)", zIndex: 1 }} />
+                <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, rgba(5,4,2,0.75) 0%, rgba(5,4,2,0.55) 45%, rgba(5,4,2,0.25) 70%, rgba(5,4,2,0.05) 100%)", zIndex: 1 }} />
                 <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "200px", background: "linear-gradient(to top, #F8F5F0, transparent)", zIndex: 2 }} />
                 <div style={{ position: "relative", zIndex: 3, display: "flex", flexDirection: "column", justifyContent: "center", padding: "140px 52px 120px", maxWidth: "600px", minHeight: "100vh" }}>
                     <div className={visible ? "fu1" : ""} style={{ fontFamily: "'Jost',sans-serif", fontSize: "9px", letterSpacing: "0.6em", color: "#c8a84e", textTransform: "uppercase", marginBottom: "32px", display: "flex", alignItems: "center", gap: "14px" }}>
